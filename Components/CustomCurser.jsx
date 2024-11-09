@@ -20,7 +20,7 @@ const CustomCurser = () => {
     <>
       <div
         style={{ left: `${mousePosition.x}px`, top: `${mousePosition.y}px` }}
-        className={`${isHovered ? `h-16 w-16 bg-yellow-500` : `h-5 w-5 bg-[#111`} fixed bg-yellow-500 rounded-full transform -translate-x-1/2 -translate-y-1/2 pointer-events-none mix-blend-difference`}
+        className={`${isHovered ? `h-16 w-16 bg-yellow-500` : `h-5 w-5 bg-[#111]`} fixed bg-yellow-500 rounded-full transform -translate-x-1/2 -translate-y-1/2 pointer-events-none mix-blend-difference`}
       ></div>
       <h1
         onMouseEnter={() => setIsHovered(true)}
